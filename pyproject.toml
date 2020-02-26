@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "human_readable_ids"
+version = "0.1.2"
+description = "Generates a human readable ID using a format of: Adjective Noun ID"
+readme = "README.md"
+authors = ["Jonny Carlyon <jonathoncarlyon@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
