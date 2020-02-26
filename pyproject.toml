@@ -1,8 +1,9 @@
 [tool.poetry]
 name = "human_readable_ids"
-version = "0.1.2"
+version = "0.1.3"
 description = "Generates a human readable ID using a format of: Adjective Noun ID"
 readme = "README.md"
+repository = "https://github.com/JonnyFb421/human-readable-ids"
 authors = ["Jonny Carlyon <jonathoncarlyon@gmail.com>"]
 
 [tool.poetry.dependencies]
